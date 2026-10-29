@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Mulqi Better DeepSeek bridge icon">
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="#163B35"/>
+  <path d="M48 84h42l18 22h40l18-22h42" fill="none" stroke="#D8F3E7" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 172h42l18-22h40l18 22h42" fill="none" stroke="#48D6A2" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="84" r="10" fill="#48D6A2"/><circle cx="208" cy="84" r="10" fill="#48D6A2"/>
+  <circle cx="48" cy="172" r="10" fill="#D8F3E7"/><circle cx="208" cy="172" r="10" fill="#D8F3E7"/>
+  <rect x="106" y="106" width="44" height="44" rx="10" fill="#FFFFFF"/>
+  <path d="M117 128h22M128 117v22" stroke="#163B35" stroke-width="6" stroke-linecap="round"/>
+</svg>
