@@ -104,7 +104,7 @@ The bundled Cordis patch registers one enabled plugin entry:
 
 ```yaml
 - insert:
-    - id: better-deepseek
+    - id: mulqi-better-deepseek
       name: 'mulqi-better-deepseek'
       disabled: false
       config:
