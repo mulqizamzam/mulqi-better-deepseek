@@ -1,0 +1,7 @@
+# Add the Better DeepSeek bridge to a DSH profile without replacing existing rows.
+- insert:
+    - id: mulqi-better-deepseek
+      name: 'mulqi-better-deepseek'
+      disabled: false
+      config:
+        enableCors: true
