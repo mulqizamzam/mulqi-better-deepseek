@@ -1,0 +1,9 @@
+This project is an independent community port and reconciliation of bridge behavior
+from EdgeTypE/dsh-better-deepseek for DeepSeek Harness 0.2.1-rc.2.
+
+Original project: https://github.com/EdgeTypE/dsh-better-deepseek
+Related browser extension: https://github.com/EdgeTypE/better-deepseek
+
+The port preserves the public bridge contract while updating package identity,
+compatibility metadata, request validation, and documentation. This project is
+not an official DeepSeek or Better DeepSeek release.
