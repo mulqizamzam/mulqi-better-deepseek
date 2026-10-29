@@ -1,0 +1,1 @@
+DeepSeek Harness bridge for the Better DeepSeek browser extension, providing HTTP session control and real-time assistant/tool events via Server-Sent Events (SSE).
