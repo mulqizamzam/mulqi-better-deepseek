@@ -1,0 +1,52 @@
+{
+  "name": "mulqi-better-deepseek",
+  "version": "0.2.1-rc.2",
+  "description": "DeepSeek Harness bridge for the Better DeepSeek browser extension, with session control and live agent events over HTTP and SSE.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "INSTALL_DSH.md",
+    "LICENSE",
+    "NOTICE",
+    "assets/icon.svg"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mulqizamzam/mulqi-better-deepseek.git"
+  },
+  "homepage": "https://github.com/mulqizamzam/mulqi-better-deepseek#readme",
+  "bugs": {
+    "url": "https://github.com/mulqizamzam/mulqi-better-deepseek/issues"
+  },
+  "icon": "./assets/icon.svg",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.1-rc.2 <0.2.2"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "4.0.5",
+    "@deepseek-ai/dsh-agent": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-host-webserver": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-session": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-tools": "0.2.1-rc.2",
+    "@deepseek-ai/schemastery": "3.0.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test tests/*.spec.mjs",
+    "validate": "node scripts/validate.mjs"
+  }
+}
